@@ -349,8 +349,8 @@ MODE.Roles.standard = {
 	},
 
 	gunner = {
-		objective = "You're the hero. Use your loadout to stop the murderer.",
-		name = "Hero",
+		objective = "You're the warrior. Use your loadout to stop the murderer.",
+		name = "Warrior",
 		color = Color(158,0,190)
 	},
 
