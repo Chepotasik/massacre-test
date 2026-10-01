@@ -187,8 +187,8 @@ MODE.TypeObjectives.standard = {
 	},
 
 	gunner = {
-		objective = "You are a hero. You've tasked yourself to help police find the criminal faster.",
-		name = "a Hero",
+		objective = "You are a Warrior. You've tasked yourself to help police find the criminal faster.",
+		name = "a Warrior",
 		color1 = Color(158,0,190),
 		color2 = Color(158,0,190)
 	},
