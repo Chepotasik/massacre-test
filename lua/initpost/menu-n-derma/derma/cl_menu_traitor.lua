@@ -1347,7 +1347,7 @@ function hg.DrawLoadoutMenu(parentPanel)
             align = "left"
         },
         {
-            roleId = "executor",
+            roleId = "traitor",
             title = "EXECUTOR",
             desc = "Pick the executor weapon",
             points = "30 POINTS",
