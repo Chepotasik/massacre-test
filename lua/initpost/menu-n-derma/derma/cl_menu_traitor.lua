@@ -1347,14 +1347,14 @@ function hg.DrawLoadoutMenu(parentPanel)
             align = "left"
         },
         {
-            roleId = "traitor",
-            title = "TRAITOR",
-            desc = "Pick the traitor weapon",
+            roleId = "executor",
+            title = "EXECUTOR",
+            desc = "Pick the executor weapon",
             points = "30 POINTS",
             align = "right"
         }
     }
-
+--//милки вей привет вообщем хочу пожелать тебе хорошего настроения я тебя очень ценю как друга и даже иногда вспоминаю как мы весело проводили время вместе спасибо что живёшь со мной в одно время :3
     for _, info in ipairs(cardData) do
         local card = vgui.Create("DButton", cardArea)
         card:SetText("")
