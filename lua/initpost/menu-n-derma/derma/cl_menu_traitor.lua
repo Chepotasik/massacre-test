@@ -145,8 +145,8 @@ CreateClientConVar("hmcd_hero_loadout", "", true, true, "Saved hero loadout")
 
 local RoleConfigs = {
     traitor = {
-        title = "TRAITOR",
-        buttonTitle = "Traitor",
+        title = "EXECUTOR",
+        buttonTitle = "Executor",
         maxPoints = 30,
         convar = "hmcd_traitor_loadout",
         saveFile = "zcity_traitor_loadout.txt",

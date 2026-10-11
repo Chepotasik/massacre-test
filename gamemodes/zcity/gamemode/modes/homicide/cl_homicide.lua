@@ -500,7 +500,7 @@ function MODE:HUDPaint()
 				stack_delay = stack_delay + 0.15
 			end
 		elseif(!lply.MainTraitor)then
-			add("Traitor secret words:", "ZB_HomicideMedium", ColorRole, sw * 0.5, cur_y, "right", stack_delay, 1.05)
+			add("Executor secret words:", "ZB_HomicideMedium", ColorRole, sw * 0.5, cur_y, "right", stack_delay, 1.05)
 			stack_delay = stack_delay + 0.15
 
 			cur_y = cur_y + ScreenScale(15)
@@ -534,7 +534,7 @@ function MODE:HUDPaint()
 	end
 
 	if(!lply.MainTraitor and lply.isTraitor)then
-		Objective = "You are equipped with nothing. Help other traitors win."
+		Objective = "Your inventory is empty. Focus on helping your teammates get justice."
 	end
 
 	--; WARNING Traitor's objective is not lined up with SubRole's
